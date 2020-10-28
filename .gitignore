@@ -59,3 +59,5 @@ buildNumber.properties
 */build/
 */.allure/
 */out/
+
+*/.DS_Store
