@@ -1,0 +1,49 @@
+.title{
+text-align: center;
+font-size: 55px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-weight: bold;
+margin-top: 3%;
+color: #6495ED;
+}
+
+.subtitle{
+text-align: center;
+font-size: 25px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+margin-top: 3%;
+color: #4169E1;
+text-decoration: underline;
+}
+
+table{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  align-items: center;
+  text-align: left;
+  margin-top: 3%;
+}
+
+td {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 9px 8px;
+  transition: .3s linear;
+ 
+}
+
+th {
+  font-weight: normal;
+  color: black;
+  border-bottom: 2px solid #6495ED;
+  border-top: 2px solid #6495ED;
+  padding: 10px 8px;
+}
+
+
+
+

@@ -1,0 +1,55 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="src/test/java/reporter/calculator_report.css"/>
+</head>
+<body background="images/background75.jpg">
+
+<div class="title">
+    $TestNG_Custom_Report_Title$
+</div>
+
+<div class="subtitle">
+    General report
+</div>
+
+<div class="firstTable">
+    <table>
+        <thead>
+        <tr>
+            <th>Test Name</th>
+            <th># Total Method</th>
+            <th># Passed</th>
+            <th># Skipped</th>
+            <th># Failed</th>
+            <th>Browser</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Execute Time (mm:hh:ss:ms)</th>
+            <th>Included Groups</th>
+            <th>Excluded Groups</th>
+        </tr>
+        </thead>
+        $Test_Case_Summary$
+    </table>
+</div>
+<div class="secondTable">
+
+    <div class="subtitle">
+        Detailed report
+    </div>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Class</th>
+            <th>Method</th>
+            <th>Start Time</th>
+            <th>Execution Time (mm:hh:ss:ms)</th>
+            <th>Exception Message</th>
+        </tr>
+        </thead>
+        $Test_Case_Detail$
+    </table>
+</div>
+</body>
+</html>

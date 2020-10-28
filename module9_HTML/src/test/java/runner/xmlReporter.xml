@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator Test Suite">
+    <listeners>
+        <listener class-name="reporter.CalculatorReporter"/>
+    </listeners>
+    <test name="Calculator Tests">
+        <classes>
+            <class name="tests.testDivision.TestDiv"/>
+            <class name="tests.testMultiplication.TestMult"/>
+            <class name="tests.testSubtraction.TestSub"/>
+            <class name="tests.testSum.TestSum"/>
+        </classes>
+    </test>
+</suite>
+
